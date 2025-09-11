@@ -112,15 +112,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Climbing and hicking
         description: ''
-        percent: 80
+        percent: 100
         icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: Playing guitar
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: musical-note
+      - name: Learning about new things
         description: ''
         percent: 70
         icon: book-open
