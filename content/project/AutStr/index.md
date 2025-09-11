@@ -1,10 +1,12 @@
 ---
 title: AutStr
 date: 2025-07-01
+links:
+  - type: code
+    url: https://github.com/fariedabuzaid/AutStr
 title: "AutStr: Symbolic Infinite Structures in Python"
 authors:
   - Faried Abu Zaid
-repo_url: https://github.com/fariedabuzaid/autstr
 featured: true
 tags:
   - Automatic Structures

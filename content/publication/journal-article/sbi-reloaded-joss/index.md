@@ -60,6 +60,8 @@ links:
     url: https://doi.org/10.21105/joss.07754
   - type: doi
     url: https://doi.org/10.21105/joss.07754
+  - type: code
+    url: https://github.com/sbi-dev/sbi
 image:
   caption: 'Image credit: sbi toolkit'
   focal_point: ""
