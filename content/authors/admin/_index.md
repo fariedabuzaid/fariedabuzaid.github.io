@@ -1,20 +1,14 @@
 ---
 # Display name
-title: Alex Johnson
-
-# Name pronunciation (optional)
-name_pronunciation: ''
+title: Dr. Faried Abu Zaid
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
-
-# Pronouns (optional)
-pronouns: he/him
+first_name: Faried
+last_name: Abu Zaid
 
 # Status emoji
-status:
-  icon: 🚀
+#status:
+#  icon: 🚀
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,80 +17,79 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+#role: AI Researcher
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:fariedaz@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/fariedabuzaid
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://www.linkedin.com/in/faried-abu-zaid/
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Faried-Abu-Zaid
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0009-0007-2565-5280
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Probabiistic and Scientific Machine Learning
+  - Trustworthy AI
+  - Mathematical Foundations of Computer Science
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD Computer Science 
+    institution: RWTH Aachen University
+    date_start: 2011-03-15
+    date_end: 2016-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Algorithmic Solutions via Model Theoretic Interpretations. Supervised by Prof. Erich Grädel
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      url: 'https://logic.rwth-aachen.de/pub/abuzaid/diss.pdf'
+  - area: Diploma Computer Science
+    institution: RWTH Aachen University
+    date_start: 2010-09-01
+    date_end: 2003-06-30
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Graduated with honors.
 
 work:
   - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
+    company_name: appliedAI Institute for Europe
+    company_url: 'https://www.appliedai-institute.de/en/'
+    company_logo: 'https://www.appliedai-institute.de/assets/static/institute/favicon-32x32.png'
     date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_end: 2025-04-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Led research projects in AI and machine learning, including anomaly detection and simulation based inference. Science communication and teaching.
+  - position: Lead Data Scientist
+    company_name: Camelot Consultants (now part of accenture)
+    company_url: 'https://www.accenture.com/de-de'
+    company_logo: ''
+    date_start: 2018-10-01
+    date_end: 2019-11-30
+    summary: |
+      Led AI for Data Management initiatives and projects.
+  - position: Postdoctoral Researcher
+    company_name: TU Ilmenau
+    company_url: 'https://www.tu-ilmenau.de/'
+    company_logo: ''
+    date_start: 2015-09-15
+    date_end: 2018-09-14
+    summary: |
+      Research in automata and logic. Lecturer in Automata Theory and Logic Programming.
+  - position: Research Assistant
+    company_name: RWTH Aachen University
+    company_url: 'https://www.rwth-aachen.de/'
+    company_logo: ''
+    date_start: 2011-03-15
+    date_end: 2015-08-14
+    summary: |
+      Mathematical Foundations of Computer Science. Teaching Assistant.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -133,37 +126,27 @@ skills:
         icon: book-open
 
 languages:
-  - name: English
+  - name: German
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: English
+    percent: 90
+  - name: Arabic
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Springorum Medal
+    url: https://prorwth.de/de/projekte-und-aktivitaeten/auszeichnungen-und-ehrungen/springorum-denkmuenze/
+    date: '2012-01-01'
+    awarder: ProRWTH
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
----
+      Awarded for outstanding exam results.
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+---
+Faried Abu Zaid holds a Dr. rer. nat. in Computer Science from RWTH Aachen University and has a distinguished record of research in artificial intelligence, machine learning, and the mathematical foundations of computer science. His experience includes teaching Machine Learning, Automata Theory, and Logic at TU Ilmenau and the appliedAI Institute for Europe. Faried is committed to advancing trustworthy AI and scientific machine learning, and actively contributes to the academic community through research, teaching, and mentorship.
+
+

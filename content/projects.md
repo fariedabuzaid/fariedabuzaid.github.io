@@ -11,8 +11,8 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Projects
+      text: I enjoy creating and developing innovative solutions. The following projects were initiated and primarily developed by me, reflecting my expertise and interests across research and engineering.
       filters:
         folders:
           - project
