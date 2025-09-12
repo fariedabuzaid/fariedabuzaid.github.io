@@ -10,6 +10,10 @@ authors:
   - appliedAI Institute for Europe 
   - Contributors
 featured: true
+image:
+  caption: 'Image credit: ChatGPT'
+  focal_point: ""
+  preview_only: false
 tags:
   - Normalizing Flows
   - Anomaly Detction

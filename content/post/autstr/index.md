@@ -15,6 +15,11 @@ tags:
   - Academic
   - Project
   - Release
+  
+image:
+  caption: 'Image credit: ChatGPT'
+  focal_point: ""
+  preview_only: false
 
 content_meta:
   trending: true

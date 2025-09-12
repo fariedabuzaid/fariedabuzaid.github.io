@@ -32,7 +32,7 @@ links:
   - type: doi
     url: https://doi.org/10.48550/arXiv.2406.14265
 image:
-  caption: 'Image credit: VeriFlow project'
+  caption: 'Image credit: ChatGPT'
   focal_point: ""
   preview_only: false
 projects: []

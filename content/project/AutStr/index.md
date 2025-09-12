@@ -8,6 +8,10 @@ title: "AutStr: Symbolic Infinite Structures in Python"
 authors:
   - Faried Abu Zaid
 featured: true
+image:
+  caption: 'Image credit: ChatGPT'
+  focal_point: ""
+  preview_only: false
 tags:
   - Automatic Structures
   - Linear Integer Arithmetic
