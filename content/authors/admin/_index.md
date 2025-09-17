@@ -36,7 +36,7 @@ profiles:
     url: https://orcid.org/0009-0007-2565-5280
 
 interests:
-  - Probabiistic and Scientific Machine Learning
+  - Probabilistic and Scientific Machine Learning
   - Trustworthy AI
   - Mathematical Foundations of Computer Science
 
