@@ -3,7 +3,7 @@ title: "Machine Learning Blog - appliedAI"
 authors:
   - Faried Abu Zaid
   - appliedAI Institute for Europe
-date: "2025-10-17"
+date: "2025-09-17"
 links:
   - type: site
     url: https://transferlab.ai/authors/faried-abu-zaid/

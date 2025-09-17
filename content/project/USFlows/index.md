@@ -4,7 +4,7 @@ date: 2025-07-01
 links:
   - type: code
     url: http://github.com/aai-institute/USFlows
-title: "USFlows:Flow models with density preserving latent space alignment"
+title: "USFlows: Flow models with density preserving latent space alignment"
 authors:
   - Faried Abu Zaid
   - appliedAI Institute for Europe 
