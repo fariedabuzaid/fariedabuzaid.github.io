@@ -3,7 +3,7 @@ title: "ICLR Blogpost 2024: Elaborating on the Value of Flow Matching for Densit
 authors:
   - Faried Abu Zaid
   - Maternus Herold
-date: "2025-09-17"
+date: "2024-05-07"
 links:
   - type: site
     url: https://iclr-blogposts.github.io/2024/blog/elaborating-on-the-value-of-flow-matching-for-density-estimation/
