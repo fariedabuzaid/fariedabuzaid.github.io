@@ -1,7 +1,7 @@
 ---
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: 2406.14265
 title: "VeriFlow: Modeling Distributions for Neural Network Verification"
 authors:
   - Faried Abu Zaid
@@ -23,10 +23,6 @@ tags:
   - machine learning
 featured: true
 links:
-  - type: preprint
-    provider: arxiv
-    id: 2406.14265
-    url: https://doi.org/10.48550/arXiv.2406.14265
   - type: bib
     url: https://dblp.org/rec/journals/corr/abs-2406-14265.bib
   - type: doi
