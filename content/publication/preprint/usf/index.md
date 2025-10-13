@@ -19,7 +19,8 @@ abstract: |
 summary: |
   Uniformly scaling flows for anomaly detection unify density faithfulness with distance-based reasoning.
 tags:
-  - neural network verification
+  - anomaly detection
+  - normalizing flows
   - probabilistic modeling
   - machine learning
 featured: true
