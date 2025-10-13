@@ -8,7 +8,7 @@ authors:
   - Tim Katzke
   - Emmanuel Neuer
   - Daniel Neider
-date: "2025-09-29"
+date: "2025-10-13"
 publishDate: "2025-10-13"
 publication_types: ["article"]
 publication: "CoRR"
