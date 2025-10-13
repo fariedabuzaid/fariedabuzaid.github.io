@@ -9,7 +9,7 @@ authors:
   - Emmanuel Neuer
   - Daniel Neider
 date: "2025-09-29"
-publishDate: "2025-09-29"
+publishDate: "2025-10-13"
 publication_types: ["article"]
 publication: "CoRR"
 publication_short: "arXiv"
