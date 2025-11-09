@@ -8,7 +8,7 @@ authors:
   - Daniel Neider
   - Mustafa Yalçiner
 date: "2026-02-01"
-publishDate: "2024-08-01"
+publishDate: "2024-11-08"
 publication_types: ["accepted-for-publication", "paper-conference"]
 publication: "Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)"
 publication_short: "AAAI-26"
