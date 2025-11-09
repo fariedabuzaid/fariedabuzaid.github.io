@@ -7,12 +7,12 @@ authors:
   - Faried Abu Zaid
   - Daniel Neider
   - Mustafa Yalçiner
-date: "2025-09-29"
-publishDate: "2025-09-29"
-publication_types: ["article"]
-publication: "CoRR"
-publication_short: "arXiv"
-volume: "abs/2406.14265"
+date: "2026-02-01"
+publishDate: "2024-06-20"
+publication_types: ["accepted-for-publication", "paper-conference"]
+publication: "Proceedings of the 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)"
+publication_short: "AAAI-26"
+volume: ""
 abstract: |
   VeriFlow introduces a novel approach to modeling distributions for neural network verification. The method leverages probabilistic techniques to improve the reliability and robustness of neural network models, providing new insights and tools for the verification process. This work is a collaboration between Faried Abu Zaid, Daniel Neider, and Mustafa Yalçiner.
 summary: |
@@ -31,7 +31,7 @@ image:
   caption: 'Image credit: Me'
   focal_point: ""
   preview_only: false
-projects: []
+projects: [USFlows]
 slides: ""
 ---
 
