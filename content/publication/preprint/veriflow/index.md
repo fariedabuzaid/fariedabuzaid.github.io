@@ -27,6 +27,10 @@ links:
     url: https://dblp.org/rec/journals/corr/abs-2406-14265.bib
   - type: doi
     url: https://doi.org/10.48550/arXiv.2406.14265
+  - type: pdf
+    url: /uploads/aaai_poster_veriflow.pdf
+  - type: site
+    url: /teaching/aaai-veriflow-poster/
 image:
   caption: 'Image credit: Me'
   focal_point: ""
@@ -34,4 +38,3 @@ image:
 projects: [USFlows]
 slides: ""
 ---
-
