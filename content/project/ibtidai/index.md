@@ -3,7 +3,7 @@ date: 2026-05-25
 links:
   - type: site
     url: https://ibtidai.netlify.app
-title: "Ibtidai: Adaptive AI Learning Studio"
+title: "ibtidai: Adaptive AI Learning Studio"
 authors:
   - Faried Abu Zaid
 featured: true
@@ -19,7 +19,7 @@ tags:
   - Adaptive Learning
 ---
 
-Ibtidai is an AI-driven learning studio for self-directed, long-term skill building. The platform takes a broad learning goal, decomposes it into a structured sequence of focused lectures, and dynamically adapts the learning path based on the learner's interests and observed progress.
+ibtidai is an AI-driven learning studio for self-directed, long-term skill building. The platform takes a broad learning goal, decomposes it into a structured sequence of focused lectures, and dynamically adapts the learning path based on the learner's interests and observed progress.
 
 Key features include:
 

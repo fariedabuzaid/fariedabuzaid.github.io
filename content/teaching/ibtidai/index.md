@@ -12,7 +12,7 @@ image:
   focal_point: ""
   preview_only: false
 ---
-Ibtidai is an open-access AI learning platform designed for self-directed, long-term skill development. It is a practical experiment in applying large language models and adaptive learning techniques to the problem of structured, personalized education outside of formal institutional settings.
+ibtidai is an open-access AI learning platform designed for self-directed, long-term skill development. It is a practical experiment in applying large language models and adaptive learning techniques to the problem of structured, personalized education outside of formal institutional settings.
 
 ## Concept
 

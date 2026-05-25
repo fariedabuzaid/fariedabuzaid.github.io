@@ -42,7 +42,7 @@ Ibtidai is a general-purpose learning platform that is particularly well-suited 
 - Grounding quality varies by how well-documented a topic is — popular technical fields tend to work best
 
 **Bring your own model**
-- Ibtidai works with the LLM provider of your choice: OpenAI, Anthropic (Claude), Google Gemini, Groq, and more
+- ibtidai works with the LLM provider of your choice: OpenAI, Anthropic (Claude), Google Gemini, Groq, and more
 - All you need is an API key — setup takes seconds and full cost control stays in your own provider account
 - With efficient models such as Claude Haiku, a full day of lecture generation typically costs only cents
 
