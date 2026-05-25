@@ -1,5 +1,5 @@
 ---
-title: "Ibtidai — AI-Driven Learning Studio"
+title: "ibtidai — AI-Driven Learning Studio"
 authors:
   - Faried Abu Zaid
 date: "2026-05-25"

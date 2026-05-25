@@ -1,5 +1,5 @@
 ---
-title: "Ibtidai — Adaptive AI Learning Studio (Early Access)"
+title: "ibtidai — Adaptive AI Learning Studio (Early Access)"
 summary: A general-purpose AI learning platform with structured long-term goal planning, dynamic learning paths, and adaptive spaced repetition.
 date: 2026-05-25
 
@@ -22,11 +22,11 @@ content_meta:
   trending: true
 ---
 
-I'm excited to announce the early access release of [Ibtidai](https://ibtidai.netlify.app) — an AI-driven learning studio built for anyone who wants to develop deep, lasting understanding of complex topics.
+I'm excited to announce the early access release of [ibtidai](https://ibtidai.netlify.app) — an AI-driven learning studio built for anyone who wants to develop deep, lasting understanding of complex topics.
 
-## What is Ibtidai?
+## What is ibtidai?
 
-Ibtidai is a general-purpose learning platform that is particularly well-suited for fields that demand continuous, self-directed skill building — think game development, machine learning, electronics, music production, or any discipline where no clean curriculum exists.
+ibtidai is a general-purpose learning platform that is particularly well-suited for fields that demand continuous, self-directed skill building — think game development, machine learning, electronics, music production, or any discipline where no clean curriculum exists.
 
 **Structured long-term learning**
 - Start with a broad learning goal and let the system decompose it into a coherent sequence of focused lectures
