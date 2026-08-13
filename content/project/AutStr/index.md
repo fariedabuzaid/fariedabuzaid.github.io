@@ -40,10 +40,15 @@ a single small framework acts as several tools at once:
 All four are the same underlying object — an *automatic presentation* — viewed
 from different angles.
 
-> **Version 2.0** (July 2026) adds *uniformly automatic classes* for whole families
-> of finite structures, and a rewritten batched-NumPy automata core that is
-> **10²–10³× faster** than v1, with JAX as an optional accelerator. See the
-> [release announcement](/post/autstr-v2/).
+> **Version 4.0** (August 2026) replaces formula strings with Python expressions,
+> *computes* first-order interpretations (quotients included), and adds level 2
+> collapsible pushdown graphs whose **reachability** is first-order definable —
+> the question a Turing machine's configuration graph cannot be asked. See the
+> [release announcement](/post/autstr-v4/).
+>
+> Earlier milestones: *uniformly automatic classes* and a **10²–10³× faster**
+> batched-NumPy core (v2, July 2026), and the step from words to **trees** with
+> MTBDD transitions (v3, July 2026).
 
 ## Installation
 
@@ -97,9 +102,10 @@ that manipulate them directly. Here is the Sieve of Eratosthenes running over th
 **actual infinite set** of integers — no bound, no array:
 
 ```python
-from autstr.arithmetic import VariableETerm as Var
+from autstr.arithmetic import BuechiArithmeticZ
 
-x = Var('x')
+Z = BuechiArithmeticZ().symbolic()
+x, y = Z.vars('x y')
 
 def infinite_sieve(steps):
     candidates = x.gt(1)                          # the infinite set {2, 3, 4, ...}
@@ -107,7 +113,7 @@ def infinite_sieve(steps):
     for _ in range(steps):
         for (p,) in candidates:                   # enumerates smallest-first
             primes.append(p); break               # ... so this is the next prime
-        multiples = (x.eq(primes[-1] * Var('y'))).drop(['y'])
+        multiples = x.eq(primes[-1] * y).drop(y)
         candidates = candidates & ~multiples      # remove its multiples, symbolically
     return primes, candidates
 
@@ -118,16 +124,15 @@ primes, remaining = infinite_sieve(4)
 
 ## Uniformly automatic classes
 
-New in version 2, a **uniformly automatic class** presents an entire family of
-finite structures by giving every automaton an extra tape that reads an *advice
-string*. A query is compiled once for the class and then decides any member.
-Built-in classes cover:
+A **uniformly automatic class** presents an entire family of finite structures by
+giving every automaton an extra tape that reads an *advice string*. A query is
+compiled once for the class and then decides any member. Built-in classes cover:
 
 | package | classes | signature |
 |---------|---------|-----------|
-| `autstr.graphs`  | bounded **tree-depth**, bounded **pathwidth** | full MSO over vertex sets |
+| `autstr.graphs`, `autstr.tree_graphs` | bounded **tree-depth**, **pathwidth**, **tree-width**, **clique-width**, **rank-width** | full MSO over vertex sets |
 | `autstr.algebra` | finite **Boolean algebras**, finite **abelian groups**, **ℤ[1/p]** | `Meet`/`Join`/`Compl`/`Leq`/`Atom`; `+` |
-| `autstr.groups`  | **index-≤2 cyclic** groups (dihedral, quaternion, semidihedral, modular), **extraspecial** p-groups | multiplication `M` |
+| `autstr.groups`, `autstr.tree_groups`, `autstr.cocycle_groups` | **index-≤2 cyclic** groups (dihedral, quaternion, semidihedral, modular), **extraspecial** p-groups, class-2 groups of bounded **rank-width** over F_p or ℤ/pᵈ | multiplication `M` |
 
 ## References
   - Abu Zaid, F. *Algorithmic Solutions via Model Theoretic Interpretations.* Dissertation, RWTH Aachen University, 2016. [DOI](https://doi.org/10.18154/RWTH-2017-07663)
